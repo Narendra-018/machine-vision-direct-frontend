@@ -1,0 +1,82 @@
+.login-page-root-div {
+  height: 100vh;
+  padding: 1rem;
+  background-color: var(--mantine-color-gray-1);
+}
+
+.image-container {
+  flex: 1.25;
+  justify-content: center;
+}
+
+.home-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-form-wrapper {
+  flex: 1;
+  justify-content: center;
+  padding: 0.625rem;
+}
+
+.image-container img {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.login-heading {
+  font-size: 1.5rem;
+  color: var(--mvd-dark-blue);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.login-form-and-heading-container {
+  width: 60%;
+  max-width: 100%;
+}
+
+.login-input input {
+  height: auto;
+  padding: 0.125rem 0.75rem;
+  font-size: 1rem;
+}
+
+.login-input label {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.3125rem;
+}
+
+.remember-me-checkbox label {
+  font-size: 1rem;
+}
+
+.login-form-submit-btn-and-forgot-password-btns-container {
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.login-form-submit-btn {
+  height: auto;
+  width: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.75rem;
+}
+
+.forgot-password-btn {
+  height: auto;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: normal;
+}
